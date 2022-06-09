@@ -5,10 +5,7 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Andi Qu - The Website"
-    />
+    <meta name="description" content="Andi Qu - The Website" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Andi Qu</title>
 
@@ -18,6 +15,21 @@
       href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Rajdhani&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-V9MR9JH3L6"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-V9MR9JH3L6");
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
