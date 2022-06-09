@@ -1,0 +1,33 @@
+.greeting {
+  background: #eeeeee;
+  background-image: url(https://dmse.mit.edu/themes/custom/dmsed8/images/home/hexbg_home_body_2580x1560_tinypng.png);
+  background-position: bottom;
+}
+
+h1 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+}
+
+table {
+  margin: 0 !important;
+}
+
+.stat-card {
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #eeeeee;
+  border-radius: 0;
+}
+
+.stat-card img {
+  flex-grow: 1;
+}
+
+.stat-card .card-body {
+  display: flex;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
