@@ -11,6 +11,10 @@
     white-space: nowrap;
 }
 
+.course-card:hover {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 540px) {
     .course-card {
         width: 95%;

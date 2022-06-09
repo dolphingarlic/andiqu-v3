@@ -50,7 +50,7 @@ function App() {
         <span>Copyright © Andi Qu 2022</span>
         <span>
           View the source code on{" "}
-          <a href="https://github.com/dolphingarlic">GitHub</a>
+          <a href="https://github.com/dolphingarlic/andiqu-v3">GitHub</a>
         </span>
       </footer>
     </Router>
