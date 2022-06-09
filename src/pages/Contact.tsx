@@ -15,7 +15,7 @@ const Contact = () => {
           </li>
           <li>
             <strong>GitHub:</strong>{" "}
-            <a href="https://github.com/dolphingarlic">@dolphingarlic</a>
+            <a href="https://github.com/dolphingarlic">dolphingarlic</a>
           </li>
           <li>
             <strong>LinkedIn:</strong>{" "}

@@ -1,3 +1,11 @@
 .project-col {
     display: flex;
 }
+
+.project-card {
+    border-radius: 0;
+}
+
+.project-card img {
+    border-radius: 0;
+}
