@@ -33,6 +33,7 @@ function App() {
                 <Nav.Link as={Link} to="/contact">
                   Contact
                 </Nav.Link>
+                <Nav.Link href="https://bits-and-bytes.me/">Blog</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
