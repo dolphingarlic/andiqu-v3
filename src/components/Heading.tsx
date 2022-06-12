@@ -13,8 +13,7 @@ const MARGINS = {
 };
 
 const Heading = (props: { size: string; children: ReactNode }) => {
-  const color = COLORS[Math.floor(Math.random() * COLORS.length)];
-  console.log(color);
+  let color = COLORS[Math.floor(Math.random() * COLORS.length)];
 
   return (
     <>

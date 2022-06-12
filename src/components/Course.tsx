@@ -31,7 +31,8 @@ const Course = (props: {
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton className="mb-3">
           <Modal.Title>
-            <strong>{props.title}</strong> ({props.subtitle})
+            <h4>{props.title}</h4>
+            <small>{props.subtitle}</small>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>{props.children}</Modal.Body>

@@ -1,9 +1,12 @@
 #root {
-  font-family: 'Rajdhani', sans-serif;
-  font-size: 1.2rem;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+body div {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.2rem;
 }
 
 main {
