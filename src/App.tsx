@@ -3,14 +3,14 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 import { unstable_HistoryRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { createBrowserHistory } from "history";
 
-const history = createBrowserHistory({ window });
-
 import "./App.css";
 import Heading from "./components/Heading";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import School from "./pages/School";
 import Contact from "./pages/Contact";
+
+const history = createBrowserHistory({ window });
 
 function App() {
   return (
