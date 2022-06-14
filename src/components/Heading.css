@@ -10,29 +10,31 @@ h2 {
 
 .heading-xs h2 {
   font-size: 1.5rem;
-  text-shadow: .1rem .1rem black;
+  text-shadow: 0.1rem 0.1rem black;
 }
 .heading-sm h2 {
   font-size: 2rem;
-  text-shadow: .15rem .15rem black;
+  text-shadow: 0.15rem 0.15rem black;
 }
 .heading-md h2 {
   font-size: 3rem;
-  text-shadow: .175rem .175rem black;
+  text-shadow: 0.175rem 0.175rem black;
 }
 .heading-lg h2 {
   font-size: 4rem;
-  text-shadow: .225rem .225rem black;
+  text-shadow: 0.225rem 0.225rem black;
 }
 .heading-xl h2 {
-    font-size: 6rem;
-    text-shadow: .375rem .375rem black;
+  font-size: 6rem;
+  text-shadow: 0.375rem 0.375rem black;
 }
 
 .heading-mask {
   position: absolute;
   top: 0.05rem;
   left: 0.05rem;
+  transition: all cubic-bezier(1, 0, 0, 1) 1s;
+  cursor: pointer;
 }
 
 .heading-hidden {
@@ -40,14 +42,9 @@ h2 {
   display: hidden;
 }
 
-.heading-before {
+.heading-rect {
   width: 100%;
   height: 100%;
   position: absolute;
-}
-
-.heading-after {
-  width: 100%;
-  height: 100%;
-  position: absolute;
+  transition: all cubic-bezier(1, 0, 0, 1) 1s;
 }

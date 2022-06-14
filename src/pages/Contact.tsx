@@ -17,9 +17,16 @@ const Contact = () => {
             <strong>GitHub:</strong>{" "}
             <a href="https://github.com/dolphingarlic">dolphingarlic</a>
           </li>
+        </ul>
+        <Heading size="md">For Recruiters</Heading>
+        <ul>
           <li>
             <strong>LinkedIn:</strong>{" "}
             <a href="https://www.linkedin.com/in/andi-qu-48313a154/">Andi Qu</a>
+          </li>
+          <li>
+            <strong>Resume:</strong>{" "}
+            
           </li>
         </ul>
       </Container>

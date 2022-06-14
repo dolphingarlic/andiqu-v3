@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import React, { ReactNode, useEffect, useState } from "react";
 
 import "./Heading.css";
 
@@ -12,8 +12,29 @@ const MARGINS = {
   xl: "my-5",
 };
 
-const Heading = (props: { size: string; children: ReactNode }) => {
-  let color = COLORS[Math.floor(Math.random() * COLORS.length)];
+const Heading = (props: {
+  size: string;
+  children: ReactNode;
+  history?: any;
+}) => {
+  const [rot1, setRot1] = useState(0);
+  const [rot2, setRot2] = useState(0);
+  const [dir, setDir] = useState(Math.round(Math.random()) * 2 - 1);
+  const [color, setColor] = useState(["#cccccc", "#999999"]);
+
+  function activate() {
+    setRot1(dir * (Math.random() * 5 + 2));
+    setRot2(-dir * (Math.random() * 5 + 2));
+    setDir(dir * -1);
+    let newColor = COLORS[Math.floor(Math.random() * COLORS.length)];
+    while (newColor === color) {
+      newColor = COLORS[Math.floor(Math.random() * COLORS.length)];
+    }
+    setColor(newColor);
+  }
+
+  useEffect(activate, []);
+  if (props.history) props.history.listen(activate);
 
   return (
     <>
@@ -21,19 +42,20 @@ const Heading = (props: { size: string; children: ReactNode }) => {
         className={`heading ${
           MARGINS[props.size as keyof typeof MARGINS]
         } heading-${props.size}`}
+        onClick={activate}
       >
         <div
-          className="heading-before"
+          className="heading-rect"
           style={{
             background: color[0],
-            transform: `rotate(${Math.random() * 5 + 2}deg)`,
+            transform: `rotate(${rot1}deg)`,
           }}
         />
         <div
-          className="heading-after"
+          className="heading-rect"
           style={{
             background: color[1],
-            transform: `rotate(-${Math.random() * 5 + 2}deg)`,
+            transform: `rotate(${rot2}deg)`,
           }}
         />
         <h2 className="heading-hidden">{props.children}</h2>

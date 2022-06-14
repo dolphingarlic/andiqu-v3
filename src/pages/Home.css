@@ -13,6 +13,11 @@ table {
   margin: 0 !important;
 }
 
+td {
+  padding: 0.25rem !important;
+  vertical-align: middle;
+}
+
 .stat-card {
   flex-direction: row;
   flex-wrap: wrap;

@@ -1,6 +1,9 @@
 import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { unstable_HistoryRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { createBrowserHistory } from "history";
+
+const history = createBrowserHistory({ window });
 
 import "./App.css";
 import Heading from "./components/Heading";
@@ -11,12 +14,12 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <Router>
+    <Router history={history}>
       <header>
         <Navbar bg="light" expand="md">
           <Container>
-            <Navbar.Brand href="/">
-              <Heading size="xs">Andi Qu</Heading>
+            <Navbar.Brand as={Link} to="/">
+              <Heading size="xs" history={history}>Andi Qu</Heading>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
