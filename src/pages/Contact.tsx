@@ -26,7 +26,7 @@ const Contact = () => {
           </li>
           <li>
             <strong>Resume:</strong>{" "}
-            
+            <a href="Andi_Resume.pdf" target="_blank">Here I guess?</a>
           </li>
         </ul>
       </Container>
