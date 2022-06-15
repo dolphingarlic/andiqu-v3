@@ -3,6 +3,8 @@ import { Container } from "react-bootstrap";
 import Heading from "../components/Heading";
 
 const Contact = () => {
+  document.title = "Andi Qu | Contact Me";
+
   return (
     <section>
       <Container>

@@ -5,6 +5,8 @@ import Heading from "../components/Heading";
 import "./School.css";
 
 const School = () => {
+  document.title = "Andi Qu | School";
+
   return (
     <>
       <section>

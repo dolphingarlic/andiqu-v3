@@ -4,6 +4,8 @@ import Heading from "../components/Heading";
 import "./Projects.css";
 
 const Projects = () => {
+  document.title = "Andi Qu | Projects";
+
   return (
     <section>
       <Container>

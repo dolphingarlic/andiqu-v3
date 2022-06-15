@@ -6,6 +6,7 @@ import FUN_FACTS from "../components/fun_facts";
 import "./Home.css";
 
 const Home = () => {
+  document.title = "Andi Qu";
   const funFact = FUN_FACTS[Math.floor(Math.random() * FUN_FACTS.length)];
 
   return (

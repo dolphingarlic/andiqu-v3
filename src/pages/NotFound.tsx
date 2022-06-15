@@ -13,6 +13,8 @@ const ART = `
 `;
 
 const NotFound = () => {
+  document.title = "Andi Qu | Page Not Found";
+
   return (
     <section>
       <Container className="d-flex justify-content-center">
