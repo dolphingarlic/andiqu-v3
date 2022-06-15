@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import School from "./pages/School";
 import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound";
 
 const history = createBrowserHistory({ window });
 
@@ -48,6 +49,7 @@ function App() {
           <Route path="/school" element={<School />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <footer>
