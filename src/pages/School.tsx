@@ -424,20 +424,24 @@ const School = () => {
             things I am/have been involved with. You can probably read their
             descriptions elsewhere online.
           </p>
-          <ul>
-            <li>UROP (with MIT CSAIL)</li>
-            <li>Experimental Study Group (ESG)</li>
-            <li>NEET Advanced Material Machines track</li>
-            <li>Projectionist for LSC</li>
-            <li>OrigaMIT</li>
-            <li>Simmons Hall house government</li>
-            <li>TechX/xFair</li>
-            <li>3.091 grading</li>
-            <li>Figure skating club</li>
-            <li>MIT Quidditch</li>
-            <li>Associate advising</li>
-            <li>DPD FPOP mentor</li>
-          </ul>
+          <details>
+            <summary>Here's a list if you're really interested.</summary>
+            <br />
+            <ul>
+              <li>UROP (with MIT CSAIL)</li>
+              <li>Experimental Study Group (ESG)</li>
+              <li>NEET Advanced Material Machines track</li>
+              <li>Projectionist for LSC</li>
+              <li>OrigaMIT</li>
+              <li>Simmons Hall house government</li>
+              <li>TechX/xFair</li>
+              <li>3.091 grading</li>
+              <li>Figure skating club</li>
+              <li>MIT Quidditch</li>
+              <li>Associate advising</li>
+              <li>DPD FPOP mentor</li>
+            </ul>
+          </details>
         </Container>
       </section>
     </>
