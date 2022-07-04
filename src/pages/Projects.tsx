@@ -27,8 +27,8 @@ const Projects = () => {
                     IOT Project
                   </Card.Subtitle>
                   <Card.Text>
-                    A 1-meter-by-1-meter map of Boston's subway system with stops that
-                    light up when trains are at them.
+                    A 1-meter-by-1-meter map of Boston's subway system with
+                    stops that light up when trains are at them.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -101,7 +101,7 @@ const Projects = () => {
                     Meme Account
                   </Card.Subtitle>
                   <Card.Text>
-                    A meme LinkedIn account with over 500 followers, including
+                    A meme LinkedIn account with over 600 followers, including
                     an associate director of MIT's CAPD.
                   </Card.Text>
                 </Card.Body>
