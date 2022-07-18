@@ -19,17 +19,17 @@ const Contact = () => {
             <strong>GitHub:</strong>{" "}
             <a href="https://github.com/dolphingarlic">dolphingarlic</a>
           </li>
-        </ul>
+        {/* </ul>
         <Heading size="md">For Recruiters</Heading>
-        <ul>
+        <ul> */}
           <li>
             <strong>LinkedIn:</strong>{" "}
             <a href="https://www.linkedin.com/in/andi-qu-48313a154/">Andi Qu</a>
           </li>
-          <li>
+          {/* <li>
             <strong>Resume:</strong>{" "}
             <a href="Andi_Resume.pdf" target="_blank">Here I guess?</a>
-          </li>
+          </li> */}
         </ul>
       </Container>
     </section>

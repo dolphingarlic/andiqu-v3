@@ -12,7 +12,7 @@ const Projects = () => {
         <Heading size="lg">Projects</Heading>
         <p>
           Most of my smaller projects (including unfinished/abandoned ones) live
-          on <a href="https://gist.github.com/dolphingarlic">GitHub</a>. Here
+          on <a href="https://github.com/dolphingarlic">GitHub</a>. Here
           are six projects that I'm proud of from six different areas of
           computer science.
         </p>

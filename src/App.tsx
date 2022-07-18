@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
-import { unstable_HistoryRouter as Router, Routes, Route, Link } from "react-router-dom";
+import {
+  unstable_HistoryRouter as Router,
+  Routes,
+  Route,
+  Link,
+} from "react-router-dom";
 import { createBrowserHistory } from "history";
 
 import "./App.css";
@@ -14,13 +19,21 @@ import NotFound from "./pages/NotFound";
 const history = createBrowserHistory({ window });
 
 function App() {
+  const [, forceUpdate] = useState(0);
+
   return (
     <Router history={history}>
       <header>
         <Navbar bg="light" expand="md">
           <Container>
-            <Navbar.Brand as={Link} to="/">
-              <Heading size="xs" history={history}>Andi Qu</Heading>
+            <Navbar.Brand
+              as={Link}
+              to="/"
+              onClick={() => forceUpdate((x) => x + 1)}
+            >
+              <Heading size="xs" history={history}>
+                Andi Qu
+              </Heading>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

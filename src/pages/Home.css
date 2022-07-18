@@ -18,21 +18,29 @@ td {
   vertical-align: middle;
 }
 
-.stat-card {
-  flex-direction: row;
-  flex-wrap: wrap;
-  background: #eeeeee;
-  border-radius: 0;
+.hexagon-container {
+  overflow: visible;
 }
 
-.stat-card img {
-  flex-grow: 1;
+.hexagon {
+  clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+  transform: rotate(30deg);
+  margin: -3% 6%;
+  transition: all cubic-bezier(0.8, 0, 0, 0.8) 1s;
 }
 
-.stat-card .card-body {
-  display: flex;
+.hexagon:hover {
+  transform: rotate(25deg) scale(1.05);
+}
+
+.hexagon img {
+  max-width: 100%;
 }
 
 li {
   margin-bottom: 0.5rem;
+}
+
+.flex-reverse {
+  flex-direction: row-reverse;
 }

@@ -26,7 +26,7 @@ const School = () => {
       </section>
       <section>
         <Container>
-          <Heading size="md">Courses</Heading>
+          <Heading size="md">Classes</Heading>
 
           <Heading size="sm">ASEs</Heading>
           <Container fluid>
@@ -259,6 +259,35 @@ const School = () => {
                   .
                 </p>
               </Course>
+              <Course
+                title="Glass Lab"
+                subtitle="Beginner Glassblowing"
+                color="#afafaf"
+              >
+                <ul>
+                  <li>
+                    <strong>Instructors:</strong> Glass lab people (there were many)
+                  </li>
+                  <li>
+                    <strong>Rating:</strong> 6/7
+                  </li>
+                </ul>
+                <p>
+                  I learnt the basics of glassblowing in this class over IAP. At first,
+                  it was really scary because I had to gather glass from a furnace that
+                  burned at thousands of degrees Celsius, but eventually I got the hang
+                  of it and managed to make some pretty cool things.
+                </p>
+                <p>
+                  My favourite part of the class was when we got to experiment with
+                  colours, since mixing different colours sometimes causes them to react
+                  and create cool gradients.
+                </p>
+                <p>
+                  The only reason why this class is 6/7 instead of 7/7 is because we lost
+                  out on a week because of a snow day 🙁.
+                </p>
+              </Course>
             </Row>
           </Container>
 
@@ -440,6 +469,7 @@ const School = () => {
               <li>MIT Quidditch</li>
               <li>Associate advising</li>
               <li>DPD FPOP mentor</li>
+              <li>ES.5111 TA</li>
             </ul>
           </details>
         </Container>

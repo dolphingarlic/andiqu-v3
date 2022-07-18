@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Col, Container, Row, Table } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import Heading from "../components/Heading";
 import FUN_FACTS from "../components/fun_facts";
 
@@ -24,8 +24,15 @@ const Home = () => {
       <section>
         <Container>
           <Heading size="lg">About Me</Heading>
-          <Row>
-            <Col md={6}>
+          <Row className="flex-reverse">
+            <Col>
+              <div className="hexagon-container">
+                <div className="hexagon">
+                  <img src="me.jpg" alt="Yes it's me" />
+                </div>
+              </div>
+            </Col>
+            <Col lg={7}>
               <Heading size="md">Game Data</Heading>
               <ul>
                 <li>
@@ -55,45 +62,6 @@ const Home = () => {
                   <strong>Hotel:</strong> Trivago
                 </li>
               </ul>
-            </Col>
-            <Col>
-              <Heading size="md">Base Stats</Heading>
-              <Card className="mb-3 stat-card">
-                <img
-                  src="avatar.jpeg"
-                  alt="Andi definitely looks like this"
-                />
-                <Card.Body>
-                  <Table>
-                    <tbody>
-                      <tr>
-                        <td><strong>HP:</strong></td>
-                        <td>60</td>
-                      </tr>
-                      <tr>
-                        <td><strong>Attack:</strong></td>
-                        <td>65</td>
-                      </tr>
-                      <tr>
-                        <td><strong>Defense:</strong></td>
-                        <td>60</td>
-                      </tr>
-                      <tr>
-                        <td><strong>Sp. Atk:</strong></td>
-                        <td>130</td>
-                      </tr>
-                      <tr>
-                        <td><strong>Sp. Def:</strong></td>
-                        <td>75</td>
-                      </tr>
-                      <tr>
-                        <td><strong>Speed:</strong></td>
-                        <td>110</td>
-                      </tr>
-                    </tbody>
-                  </Table>
-                </Card.Body>
-              </Card>
             </Col>
           </Row>
         </Container>
