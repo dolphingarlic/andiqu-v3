@@ -17,8 +17,8 @@ const School = () => {
             this website to read about my schoolwork, but who am I to judge?
           </p>
           <p>
-            I'm a student at MIT right now, studying computation and cognition
-            (course 6-9). You can read about what I do/have done in college
+            I'm a student at MIT right now, majoring in electrical engineering and computer science
+            (course 6-2) and minoring in materials science (course 3). You can read about what I do/have done in college
             here. Note that everything here is just my opinion though (for
             example, apparently most people find 14.01 fun and easy).
           </p>
