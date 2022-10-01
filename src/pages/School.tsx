@@ -71,6 +71,21 @@ const School = () => {
                   everything is Stokes' theorem 😱.
                 </p>
               </Course>
+              <Course
+                title="18.03"
+                subtitle="Differential Equations"
+                color="#575db5"
+              >
+                <p>
+                  This is basically the engineer's version of 18.06 (linear algebra). I
+                  tested out of it before my sophomore fall.
+                </p>
+                <p>
+                  Kinda annoying how much differing terminology there is (wtf is a "normal
+                  mode??") but so far, this class has been super super helpful in all
+                  my engineering endeavours (seriously)!
+                </p>
+              </Course>
             </Row>
           </Container>
 
@@ -262,7 +277,7 @@ const School = () => {
               <Course
                 title="Glass Lab"
                 subtitle="Beginner Glassblowing"
-                color="#afafaf"
+                color="#4269de"
               >
                 <ul>
                   <li>
@@ -426,6 +441,10 @@ const School = () => {
                     <strong>Rating:</strong> 6/7
                   </li>
                 </ul>
+                <p>
+                  Joe tried to teach me probability, but the probability of me
+                  understanding was unfortunately not too high 🥲.
+                </p>
               </Course>
               <Course
                 title="ES.100"
@@ -440,6 +459,161 @@ const School = () => {
                     <strong>Rating:</strong> 7/7
                   </li>
                 </ul>
+                <p>
+                  I learned how to use all sorts of power tools in this class...
+                  and my fingers are still all intact!
+                </p>
+              </Course>
+            </Row>
+          </Container>
+
+          <Heading size="sm">Fall 2022</Heading>
+          <Container fluid>
+            <Row>
+              <Course
+                title="3.010"
+                subtitle="Structure of Materials"
+                color="#4269de"
+              >
+                <ul>
+                  <li>
+                    <strong>Instructor:</strong> Caroline Ross and Rodrigo Freitas
+                  </li>
+                  <li>
+                    <strong>Rating:</strong> 6/7
+                  </li>
+                </ul>
+                <p>
+                  Part 1 of me being a material girl in a material world.
+                </p>
+              </Course>
+              <Course
+                title="24.900"
+                subtitle="Introduction to Linguistics"
+                color="#7657b4"
+              >
+                <ul>
+                  <li>
+                    <strong>Instructor:</strong> Adam Albright
+                  </li>
+                  <li>
+                    <strong>Rating:</strong> 5/7
+                  </li>
+                </ul>
+                <p>
+                  Thubis ubis uba fubun clubass bubecubaubusube Ubadubam hubas 
+                  uball suborts ubof grubeubat ubexubamplubes tubo
+                  ubillubustrubatube hubis puboubints. Lubikube thubis dubescrubiptubiubon,
+                  whubich ubis wrubittuben ubin uban ubartubifubicubiubal lubangubuubagube
+                  "Ububbubi Dububbubi".
+                </p>
+                <p>
+                Ubunfubortubunubatubely, ubit's uba bubit tuboubo tubechnubicubal
+                fubor my lubikubing.
+                </p>
+              </Course>
+              <Course
+                title="3.019"
+                subtitle="Introduction to Symbolic and Mathematical Programming"
+                color="#4269de"
+              >
+                <ul>
+                  <li>
+                    <strong>Instructor:</strong> W. Craig Carter
+                  </li>
+                  <li>
+                    <strong>Rating:</strong> 7/7
+                  </li>
+                </ul>
+                <p>
+                  I can make my computer read pickup lines in a robotic voice now!
+                </p>
+              </Course>
+              <Course
+                title="6.004"
+                subtitle="Computational Structures"
+                color="#4390de"
+              >
+                <ul>
+                  <li>
+                    <strong>Instructor:</strong> Silvina Hanono Wachman and Daniel Sanchez
+                  </li>
+                  <li>
+                    <strong>Rating:</strong> 7/7
+                  </li>
+                </ul>
+              </Course>
+              <Course
+                title="6.046"
+                subtitle="Design and Analysis of Algorithms"
+                color="#4390de"
+              >
+                <ul>
+                  <li>
+                    <strong>Instructor:</strong> Bruce Tidor and Piotr Indyk
+                  </li>
+                  <li>
+                    <strong>Rating:</strong> 4/7
+                  </li>
+                </ul>
+              </Course>
+              <Course
+                title="21M.426"
+                subtitle="MIT Wind Ensemble"
+                color="#57acb5"
+              >
+                <ul>
+                  <li>
+                    <strong>Instructor:</strong> Fred Harris and Ken Amis
+                  </li>
+                  <li>
+                    <strong>Rating:</strong> 7/7
+                  </li>
+                </ul>
+                <p>Omg MITWEEEEE... Fred is too powerful.</p>
+              </Course>
+              <Course
+                title="ES.200"
+                subtitle="ESG Teaching Seminar"
+                color="#5957b5"
+              >
+                <ul>
+                  <li>
+                    <strong>Instructor:</strong> Patti Christie
+                  </li>
+                  <li>
+                    <strong>Rating:</strong> 6/7
+                  </li>
+                </ul>
+              </Course>
+              <Course
+                title="15.A04"
+                subtitle="Startups and Entrepreneurship"
+                color="#b45c57"
+              >
+                <ul>
+                  <li>
+                    <strong>Instructor:</strong> Paul Cheek, Alfred Spector, Bill Aulet, and George Whitfield
+                  </li>
+                  <li>
+                    <strong>Rating:</strong> 7/7
+                  </li>
+                </ul>
+              </Course>
+              <Course
+                title="Glass Lab"
+                subtitle="Beginner Glassblowing"
+                color="#4269de"
+              >
+                <ul>
+                  <li>
+                    <strong>Instructors:</strong> Glass lab people (there were many)
+                  </li>
+                  <li>
+                    <strong>Rating:</strong> 6/7
+                  </li>
+                </ul>
+                <p>Oh god why am I doing this again... Just material girl things I guess</p>
               </Course>
             </Row>
           </Container>
@@ -457,19 +631,19 @@ const School = () => {
             <summary>Here's a list if you're really interested.</summary>
             <br />
             <ul>
-              <li>UROP (with MIT CSAIL)</li>
+              <li>MIT undergraduate research opportunities with CSAIL and RLE</li>
+              <li>MIT Solar Electric Vehicle Team</li>
               <li>Experimental Study Group (ESG)</li>
-              <li>NEET Advanced Material Machines track</li>
-              <li>Projectionist for LSC</li>
+              <li>Film Projection for MIT Lecture Series Committee</li>
               <li>OrigaMIT</li>
               <li>Simmons Hall house government</li>
               <li>TechX/xFair</li>
               <li>3.091 grading</li>
+              <li>Associate advising</li>
+              <li>Discover Product Design freshman pre-orientation programme mentoring</li>
+              <li>ES.5111 teaching assistant</li>
               <li>Figure skating club</li>
               <li>MIT Quidditch</li>
-              <li>Associate advising</li>
-              <li>DPD FPOP mentor</li>
-              <li>ES.5111 TA</li>
             </ul>
           </details>
         </Container>
