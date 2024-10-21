@@ -1,6 +1,8 @@
 .course-card {
     color: white;
-    width: 15rem;
+    width: initial;
+    min-width: 10rem;
+    max-width: 20rem;
     border-radius: 0;
     margin: 0.5rem;
 }
@@ -11,13 +13,14 @@
     white-space: nowrap;
 }
 
-.course-card:hover {
-    cursor: pointer;
+.course-card .card-body {
+    padding: 1rem 0 !important;
 }
 
 @media screen and (max-width: 540px) {
     .course-card {
         width: 95%;
+        max-width: 95%;
     }
 }
 

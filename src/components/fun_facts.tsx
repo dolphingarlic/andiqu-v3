@@ -1,15 +1,9 @@
 const FUN_FACTS = [
-  "I build (and break) things 🔨",
-  "Level 87 pigeon enthusiast 🐦",
-  "Lefties are the besties ⬅️✋",
-  "Time magazine's person of the year 2006 📰",
-  "Material girl in a material world 💅",
-  "Cool and quirky and not like the other girls ✨",
-  "Be not afraid 👁️",
-  "🐱😺😸😹😻😼😽🙀😿😾",
+  "Batteries includer ⚡",
+  "Pigeon enthusiast 🐦",
+  "Materials girl in a materials world 🧑‍🔬 🪨",
   "💃 Macarena 🎵 sound 🎶 effect 🕺",
-  "Turning bad ideas into software since 2018 💻",
-  "Just because it's chemistry ‼️ doesn't mean it's drugs ‼️ 🙄 💁",
+  "Turning bad ideas into reality since 2018 💻",
 ];
 
 export default FUN_FACTS;

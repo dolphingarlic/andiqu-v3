@@ -9,27 +9,20 @@ const Contact = () => {
     <section>
       <Container>
         <Heading size="lg">Contact Me</Heading>
-        <p>Or don't. I'm just a website, I can't control you.</p>
+        <p>Or don't. I'm just a website, don't let me tell you what to do.</p>
         <ul>
           <li>
             <strong>Email:</strong>{" "}
-            <a href="mailto:andi@andiqu.com">andi [at] andiqu [dot] com</a>
+            andi [at] andiqu [dot] com
           </li>
           <li>
             <strong>GitHub:</strong>{" "}
-            <a href="https://github.com/dolphingarlic">dolphingarlic</a>
+            <a href="https://github.com/dolphingarlic">@dolphingarlic</a>
           </li>
-        {/* </ul>
-        <Heading size="md">For Recruiters</Heading>
-        <ul> */}
           <li>
             <strong>LinkedIn:</strong>{" "}
-            <a href="https://www.linkedin.com/in/andi-qu-48313a154/">Andi Qu</a>
+            <a href="https://www.linkedin.com/in/andiqu/">@andiqu</a>
           </li>
-          {/* <li>
-            <strong>Resume:</strong>{" "}
-            <a href="Andi_Resume.pdf" target="_blank">Here I guess?</a>
-          </li> */}
         </ul>
       </Container>
     </section>

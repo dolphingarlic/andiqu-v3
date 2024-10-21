@@ -44,9 +44,9 @@ function App() {
                 <Nav.Link as={Link} to="/school">
                   School
                 </Nav.Link>
-                <Nav.Link as={Link} to="/projects">
+                {/* <Nav.Link as={Link} to="/projects">
                   Projects
-                </Nav.Link>
+                </Nav.Link> */}
                 <Nav.Link as={Link} to="/contact">
                   Contact
                 </Nav.Link>
@@ -68,7 +68,7 @@ function App() {
         </Routes>
       </main>
       <footer>
-        <span>Copyright © Andi Qu 2022</span>
+        <span>Copyright © Andi Qu 2024</span>
         <span>
           View the source code on{" "}
           <a href="https://github.com/dolphingarlic/andiqu-v3">GitHub</a>

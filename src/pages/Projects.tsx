@@ -11,10 +11,8 @@ const Projects = () => {
       <Container>
         <Heading size="lg">Projects</Heading>
         <p>
-          Most of my smaller projects (including unfinished/abandoned ones) live
-          on <a href="https://github.com/dolphingarlic">GitHub</a>. Here
-          are six projects that I'm proud of from six different areas of
-          computer science.
+          See <a href="https://github.com/dolphingarlic">my GitHub page</a>
+          for more miscellaneous projects.
         </p>
         <Container fluid>
           <Row>

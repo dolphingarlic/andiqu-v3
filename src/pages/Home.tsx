@@ -26,20 +26,12 @@ const Home = () => {
           <Heading size="lg">About Me</Heading>
           <Row className="flex-reverse">
             <Col>
-              <div className="hexagon-container">
-                <div className="hexagon">
-                  <img src="me.jpg" alt="Yes it's me" />
-                </div>
-              </div>
-            </Col>
-            <Col lg={7}>
-              <Heading size="md">Game Data</Heading>
               <ul>
                 <li>
                   <strong>Name:</strong> Andi Qu
                 </li>
                 <li>
-                  <strong>Age:</strong> 19
+                  <strong>Age:</strong> 22
                 </li>
                 <li>
                   <strong>Gender:</strong> Male
@@ -48,18 +40,15 @@ const Home = () => {
                   <strong>Spawn point:</strong> Johannesburg, South Africa
                 </li>
                 <li>
-                  <strong>Likes:</strong> Curry, computers, pigeons, magnetic
-                  materials
+                  <strong>Likes:</strong> Digital circuits, superconducting
+                  electronics, magnetic materials, pigeons
                 </li>
                 <li>
-                  <strong>Dislikes:</strong> JavaScript, time zones, seafood,
+                  <strong>Dislikes:</strong> Time zones, seafood, apple picking,
                   San Francisco
                 </li>
                 <li>
                   <strong>Weaknesses:</strong> Bees, pollen, uranium-235
-                </li>
-                <li>
-                  <strong>Hotel:</strong> Trivago
                 </li>
               </ul>
             </Col>

@@ -23,8 +23,8 @@ const Heading = (props: {
   const [color, setColor] = useState(["#cccccc", "#999999"]);
 
   function activate() {
-    setRot1(dir * (Math.random() * 5 + 2));
-    setRot2(-dir * (Math.random() * 5 + 2));
+    setRot1(dir * (Math.random() * 2.5 + 1));
+    setRot2(-dir * (Math.random() * 2.5 + 1));
     setDir(dir * -1);
     let newColor = COLORS[Math.floor(Math.random() * COLORS.length)];
     while (newColor === color) {
